@@ -13,24 +13,19 @@
         #frm-create-post label.error {
             color: red;
         }
-        .ms_success{
-            background-color: lightgreen;
-            width: 200px;
-            height: auto;
-        }
-
     </style>
 </head>
-
 <body>
         <div class="container" style="margin-top: 50px;">
             <h4 style="text-align: center;">Test Archivium</h4>
+            {{-- Messaggio di successo per il caricamento dei file nel database --}}
             @if (session()->has('message'))
             <div class="alert alert-success alert-block">
                 <button type="button" class="close" data-dismiss="alert">×</button>
                 {{ session()->get('message') }}
             </div>
             @endif
+            {{-- Form per inserire file .zip contententi fatture .xml che verranno aperti estratti e pushati nel db --}}
             <form action="{{ route('xml-unzip') }}" id="frm-create-course" method="post"
                 enctype="multipart/form-data">
                 @csrf
@@ -38,7 +33,6 @@
                     <label for="file">Aggiungi un file zip:</label>
                     <input type="file" class="form-control" required id="file" name="file">
                 </div>
-
                 <button type="submit" class="btn btn-primary" id="submit-post">Invia</button>
             </form>
         </div>

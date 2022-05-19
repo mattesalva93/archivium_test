@@ -14,6 +14,7 @@ class CreateXmlDataTable extends Migration
      */
     public function up()
     {
+        //Creazione di tutte le tabelle del database con le informazioni delle fatture
         Schema::create('xml_data', function (Blueprint $table) {
             $table->id();
             $table->string('File_Name', 192)->collation('utf8mb4_unicode_ci')->nullable();
