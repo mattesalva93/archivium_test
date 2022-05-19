@@ -28,7 +28,6 @@ class ReadXmlController extends Controller
         $zip = new ZipArchive;
         $zip->open($archive);
         if ($zip->open($archive) === TRUE) {
-            // Unzip Path
             $zip->extractTo(public_path() . '/fatture/unzipped');
             $zip->close();
             echo 'Unzipped Process Successful!' . '<br>';
@@ -81,6 +80,7 @@ class ReadXmlController extends Controller
             array_push($arrayCaricamenti, basename($fileinfo));
         }
         $listaCaricamenti = implode(" ", $arrayCaricamenti);
-        return redirect()->route('xml-upload', compact('arrayCaricamenti'))->with('message', 'Caricati correttamente i seguenti file: '. $listaCaricamenti);
+        $percorsoCopie = 'D:\copia_fatture';
+        return redirect()->route('xml-upload', compact('arrayCaricamenti'))->with('message', 'Caricati correttamente i seguenti file: '. $listaCaricamenti . '. ' . 'File correttamente copiati al percorso: '. $percorsoCopie);
     }
 }
