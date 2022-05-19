@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:FatturaElettronica versione="FPR12" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<FatturaElettronicaHeader>
+		<DatiTrasmissione>
+			<IdTrasmittente>
+				<IdPaese>IT</IdPaese>
+				<IdCodice>07155170157</IdCodice>
+			</IdTrasmittente>
+			<ProgressivoInvio>0015604469</ProgressivoInvio>
+			<FormatoTrasmissione>FPR12</FormatoTrasmissione>
+			<CodiceDestinatario>RPP2OW5</CodiceDestinatario>
+		</DatiTrasmissione>
+		<CedentePrestatore>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>03331721203</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>03331721203</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>AL.BA. S.R.L.</Denominazione>
+				</Anagrafica>
+				<RegimeFiscale>RF01</RegimeFiscale>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>VIA EMILIA N. 71</Indirizzo>
+				<CAP>40056</CAP>
+				<Comune>VALSAMOGGIA FRAZIONE CRESPELLANO</Comune>
+				<Provincia>BO</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+			<IscrizioneREA>
+				<Ufficio>BO</Ufficio>
+				<NumeroREA>510847</NumeroREA>
+				<CapitaleSociale>20000.00</CapitaleSociale>
+				<StatoLiquidazione>LN</StatoLiquidazione>
+			</IscrizioneREA>
+		</CedentePrestatore>
+		<CessionarioCommittente>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>12683790153</IdCodice>
+				</IdFiscaleIVA>
+				<Anagrafica>
+					<Denominazione>GS S.P.A.</Denominazione>
+				</Anagrafica>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>Via Caldera n. 21</Indirizzo>
+				<CAP>20153</CAP>
+				<Comune>Milano</Comune>
+				<Provincia>MI</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+		</CessionarioCommittente>
+		<TerzoIntermediarioOSoggettoEmittente>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>12683790153</IdCodice>
+				</IdFiscaleIVA>
+				<Anagrafica>
+					<Denominazione>GS S.P.A.</Denominazione>
+				</Anagrafica>
+			</DatiAnagrafici>
+		</TerzoIntermediarioOSoggettoEmittente>
+	</FatturaElettronicaHeader>
+	<FatturaElettronicaBody>
+		<DatiGenerali>
+			<DatiGeneraliDocumento>
+				<TipoDocumento>TD01</TipoDocumento>
+				<Divisa>EUR</Divisa>
+				<Data>2020-12-21</Data>
+				<Numero>M203442010</Numero>
+				<DatiRitenuta>
+					<TipoRitenuta>RT02</TipoRitenuta>
+					<ImportoRitenuta>6.21</ImportoRitenuta>
+					<AliquotaRitenuta>0.09</AliquotaRitenuta>
+					<CausalePagamento>Z</CausalePagamento>
+				</DatiRitenuta>
+				<ImportoTotaleDocumento>65.88</ImportoTotaleDocumento>
+				<Causale>GIFT CARD</Causale>
+				<Causale>Fatturazione fee su attivazione gift card relativa al periodo 01/11/2020 - 30/11/2020</Causale>
+				<Causale>RITENUTA D&apos;ACCONTO DEL   23.00% SUL   50.00% DI EURO 54,00</Causale>
+				<Causale>PARI A EURO 6,21</Causale>
+			</DatiGeneraliDocumento>
+		</DatiGenerali>
+		<DatiBeniServizi>
+			<DettaglioLinee>
+				<NumeroLinea>1</NumeroLinea>
+				<Descrizione>Fee applicata    4.00% su valore attivazione di 1.350,00</Descrizione>
+				<Quantita>1.000</Quantita>
+				<UnitaMisura>Pezzi</UnitaMisura>
+				<PrezzoUnitario>54.00000000</PrezzoUnitario>
+				<PrezzoTotale>54.00</PrezzoTotale>
+				<AliquotaIVA>22.00</AliquotaIVA>
+			</DettaglioLinee>
+			<DatiRiepilogo>
+				<AliquotaIVA>22.00</AliquotaIVA>
+				<ImponibileImporto>54.00</ImponibileImporto>
+				<Imposta>11.88</Imposta>
+			</DatiRiepilogo>
+		</DatiBeniServizi>
+	</FatturaElettronicaBody>
+</p:FatturaElettronica>

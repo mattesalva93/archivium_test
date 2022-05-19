@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FatturaElettronica xmlns="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12">
+  <FatturaElettronicaHeader xmlns="">
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>09468600011</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>5UYzE9Iixg</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>M5UXCR1</CodiceDestinatario>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>01619150053</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>FRNPMR86L01A479K</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione><![CDATA[L'ALIMENTARE DI FRANCO PIER MARCO]]></Denominazione>
+        </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>Corso Savona</Indirizzo>
+        <NumeroCivico>150</NumeroCivico>
+        <CAP>14100</CAP>
+        <Comune>ASTI</Comune>
+        <Provincia>AT</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+      <IscrizioneREA>
+        <Ufficio>AT</Ufficio>
+        <NumeroREA>131897</NumeroREA>
+        <CapitaleSociale>0.00</CapitaleSociale>
+        <StatoLiquidazione>LN</StatoLiquidazione>
+      </IscrizioneREA>
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>01254010034</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>01254010034</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione><![CDATA[FONTANETO SRL]]></Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>LOCALITA MOLINO MARCO </Indirizzo>
+        <NumeroCivico>20</NumeroCivico>
+        <CAP>28010</CAP>
+        <Comune>FONTANETO D'AGOGNA</Comune>
+        <Provincia>NO</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody xmlns="">
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD01</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2021-11-12</Data>
+        <Numero>5/AG</Numero>
+        <DatiRitenuta>
+          <TipoRitenuta>RT01</TipoRitenuta>
+          <ImportoRitenuta>619.72</ImportoRitenuta>
+          <AliquotaRitenuta>23.00</AliquotaRitenuta>
+          <CausalePagamento>Q</CausalePagamento>
+        </DatiRitenuta>
+		<DatiRitenuta>
+          <TipoRitenuta>RT04</TipoRitenuta>
+          <ImportoRitenuta>458.05</ImportoRitenuta>
+          <AliquotaRitenuta>8.50</AliquotaRitenuta>
+          <CausalePagamento>Q</CausalePagamento>
+        </DatiRitenuta>
+        <ImportoTotaleDocumento>6574.40</ImportoTotaleDocumento>
+      </DatiGeneraliDocumento>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee>
+        <NumeroLinea>1</NumeroLinea>
+        <CodiceArticolo>
+          <CodiceTipo>COD</CodiceTipo>
+          <CodiceValore>PROVV</CodiceValore>
+        </CodiceArticolo>
+        <Descrizione><![CDATA[PROVVIGIONE MATURATA MESE OTTOBRE 2021]]></Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>n</UnitaMisura>
+        <PrezzoUnitario>5189.83000000</PrezzoUnitario>
+        <PrezzoTotale>5189.83</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <Ritenuta>SI</Ritenuta>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>2</NumeroLinea>
+        <CodiceArticolo>
+          <CodiceTipo>COD</CodiceTipo>
+          <CodiceValore>RS</CodiceValore>
+        </CodiceArticolo>
+        <Descrizione><![CDATA[RIMBORSO FORFETTARIO]]></Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>n</UnitaMisura>
+        <PrezzoUnitario>199.02000000</PrezzoUnitario>
+        <PrezzoTotale>199.02</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <Ritenuta>SI</Ritenuta>
+      </DettaglioLinee>
+      <DatiRiepilogo>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <ImponibileImporto>5388.85</ImponibileImporto>
+        <Imposta>1185.55</Imposta>
+        <EsigibilitaIVA>I</EsigibilitaIVA>
+      </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <Beneficiario>FRANCO PIER MARCO</Beneficiario>
+        <ModalitaPagamento>MP05</ModalitaPagamento>
+        <GiorniTerminiPagamento>0</GiorniTerminiPagamento>
+        <ImportoPagamento>5496.63</ImportoPagamento>
+        <IstitutoFinanziario>CASSA DI RISPARMIO DI ASTI SPA</IstitutoFinanziario>
+        <IBAN>IT04G0608546060000000022119</IBAN>
+        <ABI>06085</ABI>
+        <CAB>46060</CAB>
+        <BIC>CASRIT22XXX</BIC>
+        <CodicePagamento>A VISTA</CodicePagamento>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</FatturaElettronica>

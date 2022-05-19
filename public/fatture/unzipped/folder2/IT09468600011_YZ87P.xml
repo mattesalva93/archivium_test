@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<P:FatturaElettronica versione="FPR12" xmlns:P="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+  <FatturaElettronicaHeader>
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>09468600011</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>1</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>0000000</CodiceDestinatario>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>03712610132</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>03712610132</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>NRG TRE S.R.L.</Denominazione>
+        </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>VIA MANZONI 1907</Indirizzo>
+        <CAP>22040</CAP>
+        <Comune>ALZATE BRIANZA</Comune>
+        <Provincia>CO</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <CodiceFiscale>DSRSRG47R11H240D</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>DE SERVI SERGIO </Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>VIA CASCINA SAN ISIDORO 68</Indirizzo>
+        <CAP>22060</CAP>
+        <Comune>CARUGO</Comune>
+        <Provincia>CO</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody>
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD01</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2019-01-29</Data>
+        <Numero>4</Numero>
+        <ImportoTotaleDocumento>185.27</ImportoTotaleDocumento>
+        <Arrotondamento>0.00</Arrotondamento>
+      </DatiGeneraliDocumento>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee>
+        <NumeroLinea>1</NumeroLinea>
+        <Descrizione>SOSTITUITO MIX BIDET BAGNO PIANO TERRA PRESSO VOSTRA ABITAZIONE</Descrizione>
+        <Quantita>1.00000</Quantita>
+        <PrezzoUnitario>0.00000</PrezzoUnitario>
+        <PrezzoTotale>0.00</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>2</NumeroLinea>
+        <Descrizione>DDT N.ro 0001/0006 del 15/01/2019</Descrizione>
+        <Quantita>1.00000</Quantita>
+        <PrezzoUnitario>0.00000</PrezzoUnitario>
+        <PrezzoTotale>0.00</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>3</NumeroLinea>
+        <CodiceArticolo>
+          <CodiceTipo>ARTICOLO_SEMPLICE</CodiceTipo>
+          <CodiceValore>06750000CR</CodiceValore>
+        </CodiceArticolo>
+        <Descrizione>TAPPO COPRIFORO X CERAMICA CROMO PIANA</Descrizione>
+        <Quantita>4.00000</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>5.33300</PrezzoUnitario>
+        <PrezzoTotale>21.33</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>4</NumeroLinea>
+        <CodiceArticolo>
+          <CodiceTipo>ARTICOLO_SEMPLICE</CodiceTipo>
+          <CodiceValore>152.496.00.1</CodiceValore>
+        </CodiceArticolo>
+        <Descrizione>MORSETTO TECNICO D.40/46 GEBERIT NERO</Descrizione>
+        <Quantita>2.00000</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>0.95000</PrezzoUnitario>
+        <PrezzoTotale>1.90</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>5</NumeroLinea>
+        <CodiceArticolo>
+          <CodiceTipo>ARTICOLO_SEMPLICE</CodiceTipo>
+          <CodiceValore>32929002</CodiceValore>
+        </CodiceArticolo>
+        <Descrizione>EUROSMART MIX. BIDET CROMO GROHE</Descrizione>
+        <Quantita>1.00000</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>78.72000</PrezzoUnitario>
+        <PrezzoTotale>78.72</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>6</NumeroLinea>
+        <Descrizione>del 15/01/2019</Descrizione>
+        <Quantita>1.00000</Quantita>
+        <PrezzoUnitario>0.00000</PrezzoUnitario>
+        <PrezzoTotale>0.00</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>7</NumeroLinea>
+        <Descrizione>MANODOPERA PER ELIMINARE BATTERIA TRE FORI ESISTENTE E MONTAGGIO NUOVO MIX BIDET</Descrizione>
+        <Quantita>1.00000</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>60.00000</PrezzoUnitario>
+        <PrezzoTotale>60.00</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>8</NumeroLinea>
+        <Descrizione>MATERIALE DI USO E CONSUMO CON TRASPORTI</Descrizione>
+        <Quantita>1.00000</Quantita>
+        <UnitaMisura>NR</UnitaMisura>
+        <PrezzoUnitario>6.48000</PrezzoUnitario>
+        <PrezzoTotale>6.48</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DatiRiepilogo>
+        <AliquotaIVA>10.00</AliquotaIVA>
+        <SpeseAccessorie>0.00</SpeseAccessorie>
+        <Arrotondamento>0.00</Arrotondamento>
+        <ImponibileImporto>168.43</ImponibileImporto>
+        <Imposta>16.84</Imposta>
+      </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <ModalitaPagamento>MP05</ModalitaPagamento>
+        <GiorniTerminiPagamento>0</GiorniTerminiPagamento>
+        <DataScadenzaPagamento>2019-01-30</DataScadenzaPagamento>
+        <ImportoPagamento>185.27</ImportoPagamento>
+        <IBAN>IT17R0311151270000000000222</IBAN>
+        <ABI>03111</ABI>
+        <CAB>51270</CAB>
+        <ScontoPagamentoAnticipato>0.00</ScontoPagamentoAnticipato>
+        <PenalitaPagamentiRitardati>0.00</PenalitaPagamentiRitardati>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</P:FatturaElettronica>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FatturaElettronica xmlns="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12">
+  <FatturaElettronicaHeader xmlns="">
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>09468600011</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>WnV4zCMhrI</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>D2D9T2A</CodiceDestinatario>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>00128100641</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>00128100641</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione><![CDATA[ALPHABETA SRL]]></Denominazione>
+        </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>Via Giuseppe la Cozza</Indirizzo>
+        <NumeroCivico>2</NumeroCivico>
+        <CAP>10091</CAP>
+        <Comune>Potenza</Comune>
+        <Provincia>PZ</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+      <Contatti>
+        <Email>prova2@yahoo.it</Email>
+      </Contatti>
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>123456789123456</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>ABCDEF01G23H526I</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione><![CDATA[Persona di test]]></Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>Piazza Pulita</Indirizzo>
+        <NumeroCivico>25</NumeroCivico>
+        <CAP>10042</CAP>
+        <Comune>Torino</Comune>
+        <Provincia>TO</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody xmlns="">
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD01</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2022-02-11</Data>
+        <Numero>4</Numero>
+        <DatiRitenuta>
+          <TipoRitenuta>RT01</TipoRitenuta>
+          <ImportoRitenuta>572.63</ImportoRitenuta>
+          <AliquotaRitenuta>23.00</AliquotaRitenuta>
+          <CausalePagamento>Q</CausalePagamento>
+        </DatiRitenuta>
+        <DatiRitenuta>
+          <TipoRitenuta>RT04</TipoRitenuta>
+          <ImportoRitenuta>423.25</ImportoRitenuta>
+          <AliquotaRitenuta>8.50</AliquotaRitenuta>
+          <CausalePagamento>Q</CausalePagamento>
+        </DatiRitenuta>
+        <ImportoTotaleDocumento>6074.82</ImportoTotaleDocumento>
+      </DatiGeneraliDocumento>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee>
+        <NumeroLinea>1</NumeroLinea>
+        <Descrizione><![CDATA[provvigioni novembre]]></Descrizione>
+        <Quantita>1.00</Quantita>
+        <PrezzoUnitario>4683.15000000</PrezzoUnitario>
+        <PrezzoTotale>4683.15</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <Ritenuta>SI</Ritenuta>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>2</NumeroLinea>
+        <Descrizione><![CDATA[provvigioni gdo]]></Descrizione>
+        <Quantita>1.00</Quantita>
+        <PrezzoUnitario>99.82000000</PrezzoUnitario>
+        <PrezzoTotale>99.82</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <Ritenuta>SI</Ritenuta>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>3</NumeroLinea>
+        <Descrizione><![CDATA[rimborso forfettario]]></Descrizione>
+        <Quantita>1.00</Quantita>
+        <PrezzoUnitario>196.39000000</PrezzoUnitario>
+        <PrezzoTotale>196.39</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <Ritenuta>SI</Ritenuta>
+      </DettaglioLinee>
+      <DatiRiepilogo>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <ImponibileImporto>4979.36</ImponibileImporto>
+        <Imposta>1095.46</Imposta>
+        <EsigibilitaIVA>I</EsigibilitaIVA>
+      </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <Beneficiario>ITALIA'S GOVERNO</Beneficiario>
+        <ModalitaPagamento>MP07</ModalitaPagamento>
+        <GiorniTerminiPagamento>30</GiorniTerminiPagamento>
+        <DataScadenzaPagamento>2022-02-11</DataScadenzaPagamento>
+        <ImportoPagamento>5078.95</ImportoPagamento>
+        <IstitutoFinanziario>SAN PAOLO</IstitutoFinanziario>
+        <IBAN>IT1234488302884002212</IBAN>
+        <CodicePagamento>BONIFICO 30 GG FF</CodicePagamento>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</FatturaElettronica>

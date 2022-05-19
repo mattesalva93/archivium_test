@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FatturaElettronica xmlns="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12">
+  <FatturaElettronicaHeader xmlns="">
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>09468600011</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>0</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>5RUO82D</CodiceDestinatario>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>08578570155</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>05179190011</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>FUCHS LUBRIFICANTI S.P.A.</Denominazione>
+        </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>VIA RIVA</Indirizzo>
+        <NumeroCivico>16</NumeroCivico>
+        <CAP>14021</CAP>
+        <Comune>BUTTIGLIERA D'ASTI</Comune>
+        <Provincia>AT</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>02635800655</IdCodice>
+        </IdFiscaleIVA>
+        <Anagrafica>
+          <Denominazione>39002133 VEBER OIL SAS DI GALARDO D. &amp; C.</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>VIA DOGLIE, 9</Indirizzo>
+        <CAP>84069</CAP>
+        <Comune>ROCCADASPIDE</Comune>
+        <Provincia>SA</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody xmlns="">
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD01</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2022-02-01</Data>
+        <Numero>2102202281</Numero>
+        <ImportoTotaleDocumento>12631.25</ImportoTotaleDocumento>
+      </DatiGeneraliDocumento>
+      <DatiDDT>
+        <NumeroDDT>778479 / 880758941</NumeroDDT>
+        <DataDDT>2022-02-01</DataDDT>
+        <RiferimentoNumeroLinea>1</RiferimentoNumeroLinea>
+      </DatiDDT>
+      <DatiDDT>
+        <NumeroDDT>778482 / 880758942</NumeroDDT>
+        <DataDDT>2022-02-01</DataDDT>
+        <RiferimentoNumeroLinea>2</RiferimentoNumeroLinea>
+      </DatiDDT>
+      <DatiTrasporto>
+        <IndirizzoResa>
+          <Indirizzo>VIA FONTE 342</Indirizzo>
+          <CAP>84069</CAP>
+          <Comune>ROCCADASPIDE</Comune>
+          <Provincia>SA</Provincia>
+          <Nazione>IT</Nazione>
+        </IndirizzoResa>
+      </DatiTrasporto>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee>
+        <NumeroLinea>1</NumeroLinea>
+        <CodiceArticolo>
+          <CodiceTipo>Fuchs</CodiceTipo>
+          <CodiceValore>600489953</CodiceValore>
+        </CodiceArticolo>
+        <Descrizione>TITAN HYD 32 HVI</Descrizione>
+        <Quantita>3600.00000</Quantita>
+        <UnitaMisura>L</UnitaMisura>
+        <PrezzoUnitario>4.68000</PrezzoUnitario>
+        <PrezzoTotale>16848.00000</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>2</NumeroLinea>
+        <CodiceArticolo>
+          <CodiceTipo>Fuchs</CodiceTipo>
+          <CodiceValore>601343353</CodiceValore>
+        </CodiceArticolo>
+        <Descrizione>TITAN HYD MR G 32 MHVI</Descrizione>
+        <Quantita>1000.00000</Quantita>
+        <UnitaMisura>L</UnitaMisura>
+        <PrezzoUnitario>4.88000</PrezzoUnitario>
+        <PrezzoTotale>4880.00000</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>3</NumeroLinea>
+        <Descrizione> Spese</Descrizione>
+        <Quantita>1.00000</Quantita>
+        <PrezzoUnitario>1.04000</PrezzoUnitario>
+        <PrezzoTotale>1.04000</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>4</NumeroLinea>
+        <Descrizione>Sconto</Descrizione>
+        <Quantita>1.00000</Quantita>
+        <PrezzoUnitario>-10951.20000</PrezzoUnitario>
+        <PrezzoTotale>-10951.20000</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>5</NumeroLinea>
+        <Descrizione>Sconto</Descrizione>
+        <Quantita>1.00000</Quantita>
+        <PrezzoUnitario>-3172.00000</PrezzoUnitario>
+        <PrezzoTotale>-3172.00000</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>6</NumeroLinea>
+        <Descrizione>CONTR. C.O.U. DPR. 691</Descrizione>
+        <Quantita>870.65000</Quantita>
+        <UnitaMisura>KG</UnitaMisura>
+        <PrezzoUnitario>0.00005</PrezzoUnitario>
+        <PrezzoTotale>0.04353</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>7</NumeroLinea>
+        <Descrizione>CONTR. C.O.U. DPR. 691</Descrizione>
+        <Quantita>3060.00000</Quantita>
+        <UnitaMisura>KG</UnitaMisura>
+        <PrezzoUnitario>0.11000</PrezzoUnitario>
+        <PrezzoTotale>336.60000</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>8</NumeroLinea>
+        <Descrizione>IMPOSTA DI CONSUMO</Descrizione>
+        <Quantita>870.65000</Quantita>
+        <UnitaMisura>KG</UnitaMisura>
+        <PrezzoUnitario>0.00034</PrezzoUnitario>
+        <PrezzoTotale>0.29602</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>9</NumeroLinea>
+        <Descrizione>IMPOSTA DI CONSUMO</Descrizione>
+        <Quantita>3060.00000</Quantita>
+        <UnitaMisura>KG</UnitaMisura>
+        <PrezzoUnitario>0.78781</PrezzoUnitario>
+        <PrezzoTotale>2410.69860</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DatiRiepilogo>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <ImponibileImporto>10353.48</ImponibileImporto>
+        <Imposta>2277.77</Imposta>
+        <EsigibilitaIVA>I</EsigibilitaIVA>
+        <RiferimentoNormativo>IVA 22% VENDITE</RiferimentoNormativo>
+      </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <Beneficiario>FUCHS LUBRIFICANTI S.P.A.</Beneficiario>
+        <ModalitaPagamento>MP12</ModalitaPagamento>
+        <ImportoPagamento>12631.25</ImportoPagamento>
+        <CodicePagamento>90 GG F.M.D.F.&#13;</CodicePagamento>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</FatturaElettronica>

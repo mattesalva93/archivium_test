@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<p:FatturaElettronica xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12">
+  <FatturaElettronicaHeader>
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>07038370016</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>11340038DA</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>0000000</CodiceDestinatario>
+      <PECDestinatario>docpas.cav@pec.lavaldocco.it</PECDestinatario>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>07038370016</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>07038370016</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>AL.MA. MARKET S.N.C.</Denominazione>
+        </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>VIA CANTA 5/7</Indirizzo>
+        <CAP>10020</CAP>
+        <Comune>RIVA PRESSO CHIERI</Comune>
+        <Provincia>TO</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+      <IscrizioneREA>
+        <Ufficio>TO</Ufficio>
+        <NumeroREA>831641</NumeroREA>
+        <CapitaleSociale>10329.14</CapitaleSociale>
+        <StatoLiquidazione>LN</StatoLiquidazione>
+      </IscrizioneREA>
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>03747970014</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>03747970014</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>COOP. ANIMAZIONE VALDOCCO</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>VIA SONDRIO 13</Indirizzo>
+        <CAP>10144</CAP>
+        <Comune>TORINO</Comune>
+        <Provincia>TO</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody>
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD04</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2021-05-14</Data>
+        <Numero>1134/000043/21/N</Numero>
+        <ImportoTotaleDocumento>184.96</ImportoTotaleDocumento>
+        <Arrotondamento>-0.01</Arrotondamento>
+      </DatiGeneraliDocumento>      
+      <DatiOrdineAcquisto>
+        <IdDocumento>1134/000038/21/A</IdDocumento>
+      </DatiOrdineAcquisto>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee>
+        <NumeroLinea>1</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000001195195</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>AMMONIACA LT 1 CRF </Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>0.70000000</PrezzoUnitario>
+        <PrezzoTotale>0.70</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 4246 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-19</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>2</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000001746946</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>DET PIATTI CARBONI ATTIVI CRF </Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>0.89000000</PrezzoUnitario>
+        <PrezzoTotale>0.89</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 4246 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-19</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>3</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000001736817</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>SPINACI AL VAPORE </Descrizione>
+        <Quantita>11.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>2.09090909</PrezzoUnitario>
+        <PrezzoTotale>23.00</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 4246 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-19</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>4</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000001632764</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>SPRAY DUO CANDEGGINA CIF </Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>1.88000000</PrezzoUnitario>
+        <PrezzoTotale>1.88</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 4246 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-19</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>5</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000001222764</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>GORGONZOLA CRF </Descrizione>
+        <Quantita>4.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>2.02000000</PrezzoUnitario>
+        <PrezzoTotale>8.08</PrezzoTotale>
+        <AliquotaIVA>4.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 4246 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-19</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>6</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000001312680</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>SCAMORZA AFFUMICATA FETTE CRF </Descrizione>
+        <Quantita>5.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>2.45200000</PrezzoUnitario>
+        <PrezzoTotale>12.26</PrezzoTotale>
+        <AliquotaIVA>4.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 4246 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-19</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>7</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0009900005166</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>BILANCIA ORTOFRUTTA </Descrizione>
+        <Quantita>0.33</Quantita>
+        <UnitaMisura>KG</UnitaMisura>
+        <PrezzoUnitario>4.78787879</PrezzoUnitario>
+        <PrezzoTotale>1.58</PrezzoTotale>
+        <AliquotaIVA>4.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 4246 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-19</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>8</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000001566938</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>ROSMARINO GR 30 </Descrizione>
+        <Quantita>5.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>0.95200000</PrezzoUnitario>
+        <PrezzoTotale>4.76</PrezzoTotale>
+        <AliquotaIVA>5.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 4246 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-19</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>9</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000001279712</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>RUCOLA CARREFOUR GR 125 </Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>1.53000000</PrezzoUnitario>
+        <PrezzoTotale>1.53</PrezzoTotale>
+        <AliquotaIVA>4.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 4246 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-19</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>10</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0009900005167</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>BILANCIA GASTRONOMIA </Descrizione>
+        <Quantita>0.64</Quantita>
+        <UnitaMisura>KG</UnitaMisura>
+        <PrezzoUnitario>4.53125000</PrezzoUnitario>
+        <PrezzoTotale>2.90</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 4246 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-19</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>11</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000001733313</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>PEPERONI TRICOLOR GR500 </Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>1.90000000</PrezzoUnitario>
+        <PrezzoTotale>1.90</PrezzoTotale>
+        <AliquotaIVA>4.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 4246 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-19</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>12</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000001566938</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>ROSMARINO GR 30 </Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>0.95000000</PrezzoUnitario>
+        <PrezzoTotale>0.95</PrezzoTotale>
+        <AliquotaIVA>5.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 4246 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-19</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>13</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000000861154</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>WURSTEL POLLO X3 CRF </Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>0.89000000</PrezzoUnitario>
+        <PrezzoTotale>0.89</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 4246 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-19</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>14</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000001442864</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>ALPI COZIE NATURALE LT1 </Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>1.33000000</PrezzoUnitario>
+        <PrezzoTotale>1.33</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 4246 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-19</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>15</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000001293614</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>NOCI SGUS GR  100 CRF </Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>2.87000000</PrezzoUnitario>
+        <PrezzoTotale>2.87</PrezzoTotale>
+        <AliquotaIVA>4.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 4246 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-19</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>16</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0009900005167</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>BILANCIA GASTRONOMIA </Descrizione>
+        <Quantita>0.86</Quantita>
+        <UnitaMisura>KG</UnitaMisura>
+        <PrezzoUnitario>4.52325581</PrezzoUnitario>
+        <PrezzoTotale>3.89</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 4246 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-19</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>17</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000000973166</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>BRIE PUNTA CRF </Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>2.36000000</PrezzoUnitario>
+        <PrezzoTotale>2.36</PrezzoTotale>
+        <AliquotaIVA>4.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 4246 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-19</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>18</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000000551513</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>MIRTILLI GR 125 </Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>2.20000000</PrezzoUnitario>
+        <PrezzoTotale>2.20</PrezzoTotale>
+        <AliquotaIVA>4.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 4246 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-19</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>19</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000000008515</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>PRESTO BUCATO A MANO LIQU  BIO </Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>2.37000000</PrezzoUnitario>
+        <PrezzoTotale>2.37</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 4246 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-19</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>20</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000001661644</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>PHILADELPHIA LIGHT </Descrizione>
+        <Quantita>6.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>2.10500000</PrezzoUnitario>
+        <PrezzoTotale>12.63</PrezzoTotale>
+        <AliquotaIVA>4.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 4246 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-19</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>21</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000001248514</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>FETTINE CHEDDAR CRF </Descrizione>
+        <Quantita>4.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>2.49000000</PrezzoUnitario>
+        <PrezzoTotale>9.96</PrezzoTotale>
+        <AliquotaIVA>4.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 4246 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-19</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>22</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000001566938</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>ROSMARINO GR 30 </Descrizione>
+        <Quantita>2.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>0.95000000</PrezzoUnitario>
+        <PrezzoTotale>1.90</PrezzoTotale>
+        <AliquotaIVA>5.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 4246 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-19</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>23</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000001293614</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>NOCI SGUS GR  100 CRF </Descrizione>
+        <Quantita>2.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>2.86500000</PrezzoUnitario>
+        <PrezzoTotale>5.73</PrezzoTotale>
+        <AliquotaIVA>4.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 4246 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-19</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>24</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000001524326</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>CANDEGGINA CLASSICA ACE LT 3 </Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>1.96000000</PrezzoUnitario>
+        <PrezzoTotale>1.96</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 4246 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-19</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>25</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000001747699</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>BIS TAPPI BOTTIGLIA CON LEVA </Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>0.81000000</PrezzoUnitario>
+        <PrezzoTotale>0.81</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 4246 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-19</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>26</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000001321896</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>WURSTEL POLLO AIA GR 25 </Descrizione>
+        <Quantita>3.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>1.31666667</PrezzoUnitario>
+        <PrezzoTotale>3.95</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 4246 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-19</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>27</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000000861154</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>WURSTEL POLLO X3 CRF </Descrizione>
+        <Quantita>11.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>0.89090909</PrezzoUnitario>
+        <PrezzoTotale>9.80</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 4246 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-19</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>28</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000001593234</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>SCAMORZA AFFUMICATA VALLELATA </Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>2.20000000</PrezzoUnitario>
+        <PrezzoTotale>2.20</PrezzoTotale>
+        <AliquotaIVA>4.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 4246 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-19</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>29</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000001524326</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>CANDEGGINA CLASSICA ACE LT 3 </Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>1.96000000</PrezzoUnitario>
+        <PrezzoTotale>1.96</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 5547 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-28</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>30</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000001442864</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>ALPI COZIE NATURALE LT1 </Descrizione>
+        <Quantita>3.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>1.32666667</PrezzoUnitario>
+        <PrezzoTotale>3.98</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 5547 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-28</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>31</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000001498134</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>ALCOOL ETILICO DENAT 90GR CRF </Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>1.80000000</PrezzoUnitario>
+        <PrezzoTotale>1.80</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 5547 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-28</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>32</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000001736817</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>SPINACI AL VAPORE </Descrizione>
+        <Quantita>6.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>2.09166667</PrezzoUnitario>
+        <PrezzoTotale>12.55</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 5547 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-28</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>33</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000001661644</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>PHILADELPHIA LIGHT </Descrizione>
+        <Quantita>6.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>2.10500000</PrezzoUnitario>
+        <PrezzoTotale>12.63</PrezzoTotale>
+        <AliquotaIVA>4.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 5547 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-28</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>34</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000001566938</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>ROSMARINO GR 30 </Descrizione>
+        <Quantita>4.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>0.95250000</PrezzoUnitario>
+        <PrezzoTotale>3.81</PrezzoTotale>
+        <AliquotaIVA>5.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 5547 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-28</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>35</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000000861154</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>WURSTEL POLLO X3 CRF </Descrizione>
+        <Quantita>6.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>0.89166667</PrezzoUnitario>
+        <PrezzoTotale>5.35</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 5547 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-28</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>36</NumeroLinea>
+        <CodiceArticolo>
+         <CodiceTipo>IN</CodiceTipo> 
+         <CodiceValore>0000001321896</CodiceValore> 
+        </CodiceArticolo>        
+        <Descrizione>WURSTEL POLLO AIA GR 25 </Descrizione>
+        <Quantita>3.00</Quantita>
+        <UnitaMisura>PZ</UnitaMisura>
+        <PrezzoUnitario>1.17333333</PrezzoUnitario>
+        <PrezzoTotale>3.52</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+        <AltriDatiGestionali>
+         <TipoDato>SCONTRINO</TipoDato>
+         <RiferimentoTesto>Numero 5547 Cassa 03</RiferimentoTesto>
+         <RiferimentoData>2021-04-28</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DatiRiepilogo>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <Arrotondamento>-0.01</Arrotondamento>
+        <ImponibileImporto>17.67</ImponibileImporto>
+        <Imposta>3.89</Imposta>
+        <EsigibilitaIVA>I</EsigibilitaIVA>
+      </DatiRiepilogo>
+      <DatiRiepilogo>
+        <AliquotaIVA>10.00</AliquotaIVA>
+        <Arrotondamento>0.00</Arrotondamento>
+        <ImponibileImporto>65.85</ImponibileImporto>
+        <Imposta>6.59</Imposta>
+        <EsigibilitaIVA>I</EsigibilitaIVA>
+      </DatiRiepilogo>
+      <DatiRiepilogo>
+        <AliquotaIVA>4.00</AliquotaIVA>
+        <Arrotondamento>0.00</Arrotondamento>
+        <ImponibileImporto>75.93</ImponibileImporto>
+        <Imposta>3.04</Imposta>
+        <EsigibilitaIVA>I</EsigibilitaIVA>
+      </DatiRiepilogo>
+      <DatiRiepilogo>
+        <AliquotaIVA>5.00</AliquotaIVA>
+        <Arrotondamento>0.01</Arrotondamento>
+        <ImponibileImporto>11.43</ImponibileImporto>
+        <Imposta>0.57</Imposta>
+        <EsigibilitaIVA>I</EsigibilitaIVA>
+      </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <Beneficiario>AL.MA. MARKET S.N.C.</Beneficiario>
+        <ModalitaPagamento>MP01</ModalitaPagamento>
+        <ImportoPagamento>184.96</ImportoPagamento>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</p:FatturaElettronica>
