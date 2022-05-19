@@ -40,7 +40,7 @@ class ReadXmlController extends Controller
         );
         //Variabile di appoggio utile per tenere traccia di tutti i file che vengono correttamente caricati
         $arrayCaricamenti = [];
-        //Ciclo foreach che prende ogni singolo file precedentemente rilevato con la funzionalità Recursive di PHP e ad rende ognuno di essi prima un file Json e successivamente un array multidimensionale con i valori contenuti nei file .xml
+        //Ciclo foreach che prende ogni singolo file precedentemente rilevato con la funzionalità Recursive di PHP e rende ognuno di essi prima un file Json e successivamente un array multidimensionale con i valori contenuti nei file .xml
         foreach ($fileinfos as $fileinfo) {
             if (!$fileinfo->isFile()) continue;
             $xmlDataString = file_get_contents($fileinfo);
